@@ -1,0 +1,336 @@
+* {
+  /* Reset de los algunos estilos por defecto */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/********* reglas-generales  **********/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'DM Serif Display', serif;
+  color: hsl(270, 9%, 17%)
+}
+
+p, a, ul, li{
+  font-family: 'Karla', sans-serif;
+  color: hsl(273, 4%, 51%)
+}
+
+a{
+  text-decoration:none;
+}
+
+ul{
+  list-style: none;
+  }
+
+/********* reglas-general-fin  **********/
+/********* Tipo de Fuentes *************/
+/*
+
+font-family: 'DM Serif Display', serif; Titulos 
+font-family: 'Karla', sans-serif; Parafos 
+
+*/
+
+/********* hero-section ********/
+
+.hero {
+  background-color: hsl(256, 26%, 20%);
+  display: flex;
+  justify-content: center;
+  padding: 8rem 0;
+}
+
+.hero_child {
+  width: 50%;
+  max-width: 700px;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-img img {
+  position: absolute;
+}
+
+
+/********* hero-section-fin ********/
+
+/********* Barra de Navegacion *******/
+.nav {
+  height: 80px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  margin-right: 1rem;
+}
+
+.View_li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2b282f;
+  width: 146px;
+  height: 40px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.View_li:hover{
+  color: #ffffff;
+  background-color:#464347;
+}
+
+.nav ul li .View_li {
+  margin-right: 1rem;
+  color: #fff; /* Agregado para el color blanco */
+}
+
+/********* Fin de la Barra de Navegacion *******/
+
+/******** Inicio del Hero ************/
+
+.hero_line {
+  border-top: 4cap solid #ffffff;
+  width: 152px;
+  margin-bottom: 1rem;
+}
+
+.hero_child h1 {
+  font-size: 93px;
+  color: #ffffff;
+}
+
+.hero_child p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-right: 40px;
+}
+
+.View_a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  width: 146px;
+  height: 40px;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 30px; /* Ajusta el margen superior según sea necesario */
+}
+
+.View_a:hover{
+  color: #ffffff;
+  background-color:#464347;
+}
+
+
+/************* Fin del Inicio del Hero **********/
+
+/*************Comiemzo del We're Different*******/
+
+.separacion{
+  margin-top: 305px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.we_line {
+  width: 520px;
+  border-top: 4px solid #b1a3b0;
+  margin-left: 660px;
+}
+
+.were_h2 {
+  font-size: 79px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_Snappy,
+.nav_Princes,
+.nav_People {
+  width: 350px;
+  display: inline-block;
+  margin-top: 45px;
+  margin-right: 45px;
+}
+
+.nav_Snappy p,
+.nav_Princes p,
+.nav_People p{
+  margin-top: 25px;
+}
+
+.nav_Snappy h2,
+.nav_Princes h2,
+.nav_People h2 {
+  font-size: 35px;
+  margin-top: 42px;
+}
+/************* Fin del We're Different*******/
+
+/************ Comienzo del Fid out More******/
+
+.separacion2{
+  height: 166px;
+}
+.nav_find{
+  height: 252px;
+  width: 1112px;
+  background: #2c2640;
+  display: flex;
+  margin-left: 338px;
+}
+
+.find-more{
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+}
+
+.find-more h2 {
+  color: #fff;
+  font-size: 54px;
+  width: 475px;
+  margin-right:315px ;
+}
+
+.find-more a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  width: 146px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.find-more a:hover{
+  color: #ffffff;
+  background-color:#464347;
+}
+
+
+
+/************ Final del Fid out More******/
+/************ Logo de las empresa y las Redes **********/
+
+
+.separacion3{
+  height: 217px;
+}
+
+.containerIMG{
+  width: 1111px;
+  height: 25px;
+  margin-left: 338px;
+}
+
+.insure_line{
+  border-top: 4px solid #d9d9d9;
+  width: 1150px;
+  margin-left: 322px;
+  margin-top: 33px;
+  margin-bottom: 51px;
+}
+
+.logo {
+  float: left;
+}
+
+.redes {
+  float: right;
+}
+
+.facebook,
+.twitter,
+.pinterest,
+.instagram {
+display: inline-block; /* Muestra los elementos en línea */
+margin-left: 20px; /* Ajusta el margen entre los logotipos según tu preferencia */
+}
+
+
+/************ Fin de Logo de las empresa y las Redes **********/
+
+/********* Inicio del Footer *************/
+
+
+.Footer_caja {
+  width: 925px;
+  height: 155px;
+  margin-left: 338px;
+  margin-bottom: 67px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ulFooter {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.Foot_h5 {
+  margin-bottom: 30px;
+}
+
+.navFooter {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navFooter h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navFooter {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navFooter li {
+  margin-bottom: 22px;
+}
+
+.navFooter a {
+  font-size: 14px;
+}
+
+.navFooter a:hover {
+color: hsl(270, 9%, 17%)
+}
+
+.others,
+.contact,
+.help,
+.company{
+  color: hsl(270, 9%, 17%);
+}
+
+
+
+/********* Final del Footer ************/
